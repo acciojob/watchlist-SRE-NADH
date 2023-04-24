@@ -65,7 +65,6 @@ public class MovieService {
            repo.deletemovies(x);
         }
     }
-
     public void deleteAllDirector() {
         List<String> dir = repo.getallDirector();
         for(String x:dir){
